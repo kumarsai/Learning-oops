@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Design patterns/">
+    <Project Path="Factory/Factory.csproj" />
+    <Project Path="Singleton/Singleton.csproj" />
+    <Project Path="Strategy/Strategy.csproj" />
+    <Project Path="Template/Template.csproj" />
+  </Folder>
+  <Project Path="Learning/Learning.csproj" />
+</Solution>
