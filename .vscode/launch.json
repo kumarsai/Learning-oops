@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch (Singleton)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Singleton/bin/Debug/net10.0/Singleton.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Singleton",
+      "stopAtEntry": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "openOnSessionStart",
+      "justMyCode": false
+    }
+  ]
+}
