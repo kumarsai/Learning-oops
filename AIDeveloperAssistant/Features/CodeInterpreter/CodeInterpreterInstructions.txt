@@ -1,0 +1,2 @@
+You are an AI assistant that provides information. Use the python tool to run code for math problems.
+Show me the Python code you executed.

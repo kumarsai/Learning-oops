@@ -1,0 +1,49 @@
+AI Developer Assistant
+│
+├── Program.cs
+├── appsettings.json
+│
+├── Core
+│   ├── AppMenu.cs
+│   ├── ConversationSession.cs
+│   └── AppConstants.cs
+│
+├── AI
+│   ├── AiClientFactory.cs
+│   ├── ResponsesService.cs
+│   └── Instructions
+│       ├── system-instructions.txt
+│       └── interview-coach.txt
+│
+├── Features
+│   ├── InterviewCoach
+│   │   └── InterviewCoachFeature.cs
+│   │
+│   ├── CodeReviewer
+│   │   └── CodeReviewerFeature.cs
+│   │
+│   ├── SqlAssistant
+│   │   └── SqlAssistantFeature.cs
+│   │
+│   ├── WebSearch
+│   │   └── WebSearchFeature.cs
+│   │
+│   ├── FileSearch
+│   │   └── FileSearchFeature.cs
+│   │
+│   ├── ImageGenerator
+│   │   └── ImageGeneratorFeature.cs
+│   │
+│   └── CsvAnalyzer
+│       └── CsvAnalyzerFeature.cs
+│
+├── Tools
+│   ├── WeatherTool.cs
+│   ├── CalculatorTool.cs
+│   ├── StockPriceTool.cs
+│   └── DateTimeTool.cs
+│
+└── Models
+    ├── AppSettings.cs
+    ├── ToolResult.cs
+    └── ChatMessage.cs
