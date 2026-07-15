@@ -29,6 +29,9 @@
     <None Update="Features\FileSearch\FileSearchInstructions.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Features\FunctionCalling\FunctionCallingInstructions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Features\InterviewCoach\InterviewCoachInstructions.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -39,6 +42,7 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Features\EmployeeFoundryAgentFeature\" />
   </ItemGroup>
   
 </Project>

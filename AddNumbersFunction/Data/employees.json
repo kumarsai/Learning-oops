@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1001,
+    "name": "Sai Kumar",
+    "email": "sai.kumar@company.com",
+    "department": "Engineering",
+    "jobTitle": "Senior .NET Developer",
+    "location": "Hyderabad",
+    "leaveBalance": 14,
+    "projects": [
+      "AI Developer Assistant",
+      "Tenant Turnover Platform"
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "Anita Sharma",
+    "email": "anita.sharma@company.com",
+    "department": "Engineering",
+    "jobTitle": "Angular Developer",
+    "location": "Bengaluru",
+    "leaveBalance": 10,
+    "projects": [
+      "Customer Portal"
+    ]
+  },
+  {
+    "id": 1003,
+    "name": "Ravi Verma",
+    "email": "ravi.verma@company.com",
+    "department": "Finance",
+    "jobTitle": "Finance Manager",
+    "location": "Mumbai",
+    "leaveBalance": 18,
+    "projects": [
+      "Annual Budget Planning"
+    ]
+  },
+  {
+    "id": 1004,
+    "name": "Priya Reddy",
+    "email": "priya.reddy@company.com",
+    "department": "Human Resources",
+    "jobTitle": "HR Manager",
+    "location": "Hyderabad",
+    "leaveBalance": 12,
+    "projects": [
+      "Employee Onboarding",
+      "Performance Reviews"
+    ]
+  },
+  {
+    "id": 1005,
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta@company.com",
+    "department": "Engineering",
+    "jobTitle": "Azure Engineer",
+    "location": "Pune",
+    "leaveBalance": 8,
+    "projects": [
+      "Azure Migration",
+      "Cloud Monitoring"
+    ]
+  }
+]

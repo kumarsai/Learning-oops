@@ -13,7 +13,9 @@ namespace AIDeveloperAssistant.Core
         WebSearch = 4,
         FileSearch = 5,
         ImageGenerator = 6,
-        CsvAnalyzer = 7,
+        CsvAnalyzer = 7, 
         CodeInterpreter = 8,
+        SmartAssistant = 9,
+        EmployeeAssistant = 10
     }
 }

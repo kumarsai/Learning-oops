@@ -11,6 +11,9 @@ internal sealed class AppConfig
     public string Endpoint { get; }
     public string DeploymentName { get; }
 
+    public string EmployeeFunctionBaseUrl { get; }
+    public string? EmployeeFunctionKey { get; }
+
     private AppConfig()
     {
         IConfiguration config = new ConfigurationBuilder()
@@ -22,5 +25,13 @@ internal sealed class AppConfig
 
         DeploymentName = config["AzureOpenAI:DeploymentName"]
             ?? throw new Exception("AzureOpenAI:DeploymentName is missing");
+
+        EmployeeFunctionBaseUrl =
+          config["EmployeeFunction:BaseUrl"]
+          ?? throw new Exception("Employee Function BaseUrl is missing.");
+
+        EmployeeFunctionKey =
+            Environment.GetEnvironmentVariable("EMPLOYEE_FUNCTION_KEY")
+            ?? config["EmployeeFunction:FunctionKey"];
     }
 }

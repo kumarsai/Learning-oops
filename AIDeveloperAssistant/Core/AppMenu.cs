@@ -18,6 +18,8 @@ internal static class AppMenu
         Console.WriteLine("6. Image Generator");
         Console.WriteLine("7. CSV Analyzer");
         Console.WriteLine("8. AI Code Interpreter");
+        Console.WriteLine("9. Smart Assistant"); 
+        Console.WriteLine("10. Employee Assistant"); 
         Console.WriteLine("0. Exit");
         Console.WriteLine();
 
