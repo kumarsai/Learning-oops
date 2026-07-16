@@ -3,6 +3,9 @@
     <Project Path="AddNumbersFunction/Functions.csproj" Id="b40904d8-0da0-4136-8abe-c4c73f80251c" />
     <Project Path="AIDeveloperAssistant/AIDeveloperAssistant.csproj" Id="ca97b473-0d1e-4d05-90cf-06183445ba43" />
   </Folder>
+  <Folder Name="/AIEmployeeAssistant/">
+    <Project Path="EmployeeAgent/EmployeeAgent.csproj" Id="6fe68f1c-48e4-441b-9eb2-df4ec2afc8cb" />
+  </Folder>
   <Folder Name="/AILearning/">
     <Project Path="AI Interview Coach/AI Interview Coach.csproj" Id="9c33b6d8-4465-4e75-8a64-16823fc76817" />
     <Project Path="AI/AI.csproj" />
