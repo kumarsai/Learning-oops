@@ -5,6 +5,7 @@
   </Folder>
   <Folder Name="/AIEmployeeAssistant/">
     <Project Path="EmployeeAgent/EmployeeAgent.csproj" Id="6fe68f1c-48e4-441b-9eb2-df4ec2afc8cb" />
+    <Project Path="EmployeeMcpServer/EmployeeMcpServer.csproj" Id="a6e36d70-9776-4037-af06-1c0d1f384d59" />
   </Folder>
   <Folder Name="/AILearning/">
     <Project Path="AI Interview Coach/AI Interview Coach.csproj" Id="9c33b6d8-4465-4e75-8a64-16823fc76817" />

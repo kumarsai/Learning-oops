@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "employee": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "C:/Projects/EmployeeMcpServer/EmployeeMcpServer.csproj"
+      ],
+      "cwd": "C:/Projects/EmployeeMcpServer"
+    }
+  }
+}
